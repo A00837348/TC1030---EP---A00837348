@@ -19,7 +19,7 @@ int main() {
 
     for (Inmueble *propiedad : inmuebles) {
         propiedad->imprimirCaracteristicas();
-        std::cout << "Precio de venta: $" << propiedad->precioVenta() << "\n\n";
+        std::cout << "Precio de venta: $" << propiedad->precioVenta() << " $ ";
     }
 
     for (Inmueble *propiedad : inmuebles) {
